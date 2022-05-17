@@ -10,4 +10,4 @@ function swapKeyValue(m) {
     const map = new Map();
     map.set(new Date(), 1234);
     map.set("Hello", { world: "world" });
-    swapKeyValue(map);
+    console.log(swapKeyValue(map));
